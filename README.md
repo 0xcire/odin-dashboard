@@ -1,5 +1,9 @@
 # Dashboard - The Odin Project
 
+can be viewed [here](https://0xcire.github.io/odin-dashboard/)
+
+### remarks
+
 Didn't like my previous implementation so remaking it.
 
 Something I struggle with is just diving into a project head on.
