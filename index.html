@@ -13,34 +13,237 @@
       rel="stylesheet"
     />
 
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/7177ae3b0b.js"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" href="./app.css" />
 
     <title>Dashboard</title>
   </head>
   <body>
     <div id="dashboard">
-      <div class="header"></div>
-      <div class="sidebar"></div>
+      <div class="header">
+        <div class="top">
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="search" id="search" />
+          </div>
+          <div class="user">
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-user"></i>
+            <p>User User</p>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="greeting">
+            <i class="fa-solid fa-user-secret"></i>
+            <div class="block-text">
+              <p>Hi there,</p>
+              <p>User User (@user)</p>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="new">New</button>
+            <button class="upload">Upload</button>
+            <button clas="share">Share</button>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="sidebar-heading">
+          <i class="fa-solid fa-chart-line"></i>
+          <p>Dashboard</p>
+        </div>
+        <nav class="main-nav">
+          <a class="nav-link" href="#">
+            <i class="fa-solid fa-igloo"></i>
+            <p>Home</p>
+          </a>
+          <a class="nav-link" href="#">
+            <i class="fa-solid fa-id-card"></i>
+            <p>Profile</p>
+          </a>
+          <a class="nav-link" href="#">
+            <i class="fa-solid fa-message"></i>
+            <p>Messages</p>
+          </a>
+          <a class="nav-link" href="#">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+            <p>History</p>
+          </a>
+          <a class="nav-link" href="#">
+            <i class="fa-solid fa-list-check"></i>
+            <p>Tasks</p>
+          </a>
+          <a class="nav-link" href="#">
+            <i class="fa-solid fa-people-group"></i>
+            <p>Communities</p>
+          </a>
+        </nav>
+        <hr />
+        <div class="additional-links">
+          <a class="additional-link" href="#">
+            <i class="fa-solid fa-gears"></i>
+            <p>Settings</p>
+          </a>
+          <a class="additional-link" href="#">
+            <i class="fa-solid fa-circle-info"></i>
+            <p>Support</p>
+          </a>
+          <a class="additional-link" href="#">
+            <i class="fa-solid fa-lock"></i>
+            <p>Privacy</p>
+          </a>
+        </div>
+      </div>
       <div class="content">
         <div class="projects">
           <h3>Your Projects</h3>
           <div class="project-grid">
-            <div class="project"></div>
-            <div class="project"></div>
-            <div class="project"></div>
-            <div class="project"></div>
-            <div class="project"></div>
-            <div class="project"></div>
+            <div class="project">
+              <h4>Porem Lipsum</h4>
+              <p>
+                In publishing and graphic design, Lorem ipsum is a placeholder
+                text commonly used to demonstrate the visual form of a document
+                or a typeface without relying on meaningful content. Lorem ipsum
+                may be used as a placeholder before final copy is available.
+              </p>
+              <div class="buttons">
+                <button>Site</button>
+                <button>Code</button>
+              </div>
+            </div>
+            <div class="project">
+              <h4>Porem Lipsum</h4>
+              <p>
+                In publishing and graphic design, Lorem ipsum is a placeholder
+                text commonly used to demonstrate the visual form of a document
+                or a typeface without relying on meaningful content. Lorem ipsum
+                may be used as a placeholder before final copy is available.
+              </p>
+              <div class="buttons">
+                <button>Site</button>
+                <button>Code</button>
+              </div>
+            </div>
+            <div class="project">
+              <h4>Porem Lipsum</h4>
+              <p>
+                In publishing and graphic design, Lorem ipsum is a placeholder
+                text commonly used to demonstrate the visual form of a document
+                or a typeface without relying on meaningful content. Lorem ipsum
+                may be used as a placeholder before final copy is available.
+              </p>
+              <div class="buttons">
+                <button>Site</button>
+                <button>Code</button>
+              </div>
+            </div>
+            <div class="project">
+              <h4>Porem Lipsum</h4>
+              <p>
+                In publishing and graphic design, Lorem ipsum is a placeholder
+                text commonly used to demonstrate the visual form of a document
+                or a typeface without relying on meaningful content. Lorem ipsum
+                may be used as a placeholder before final copy is available.
+              </p>
+              <div class="buttons">
+                <button>Site</button>
+                <button>Code</button>
+              </div>
+            </div>
+            <div class="project">
+              <h4>Porem Lipsum</h4>
+              <p>
+                In publishing and graphic design, Lorem ipsum is a placeholder
+                text commonly used to demonstrate the visual form of a document
+                or a typeface without relying on meaningful content. Lorem ipsum
+                may be used as a placeholder before final copy is available.
+              </p>
+              <div class="buttons">
+                <button>Site</button>
+                <button>Code</button>
+              </div>
+            </div>
+            <div class="project">
+              <h4>Porem Lipsum</h4>
+              <p>
+                In publishing and graphic design, Lorem ipsum is a placeholder
+                text commonly used to demonstrate the visual form of a document
+                or a typeface without relying on meaningful content. Lorem ipsum
+                may be used as a placeholder before final copy is available.
+              </p>
+              <div class="buttons">
+                <button>Site</button>
+                <button>Code</button>
+              </div>
+            </div>
           </div>
         </div>
         <div class="content-aside">
           <div class="announcements">
             <h3>Announcements</h3>
-            <div class="announcement-list"></div>
+            <div class="announcement-list">
+              <div class="announcement">
+                <a href="#">Site Maintenance</a>
+                <p>
+                  This is some dummy text about maintenance that is not occuring
+                  for a site that does not exist. RIP.
+                </p>
+              </div>
+              <hr />
+              <div class="announcement">
+                <a href="#">Site Maintenance</a>
+                <p>
+                  This is some dummy text about maintenance that is not occuring
+                  for a site that does not exist. RIP.
+                </p>
+              </div>
+              <hr />
+              <div class="announcement">
+                <a href="#">Site Maintenance</a>
+                <p>
+                  This is some dummy text about maintenance that is not occuring
+                  for a site that does not exist. RIP.
+                </p>
+              </div>
+            </div>
           </div>
           <div class="trending">
             <h3>Trending</h3>
-            <div class="trending-list"></div>
+            <div class="trending-list">
+              <a href="#">
+                <i class="fa-regular fa-circle"></i>
+                <div class="info">
+                  <p>@TheOdinProject</p>
+                  <p>New curriculum just dropped!</p>
+                </div>
+              </a>
+              <a href="#">
+                <i class="fa-regular fa-circle"></i>
+                <div class="info">
+                  <p>@TheOdinProject</p>
+                  <p>New curriculum just dropped!</p>
+                </div>
+              </a>
+              <a href="#">
+                <i class="fa-regular fa-circle"></i>
+                <div class="info">
+                  <p>@TheOdinProject</p>
+                  <p>New curriculum just dropped!</p>
+                </div>
+              </a>
+              <a href="#">
+                <i class="fa-regular fa-circle"></i>
+                <div class="info">
+                  <p>@TheOdinProject</p>
+                  <p>New curriculum just dropped!</p>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
